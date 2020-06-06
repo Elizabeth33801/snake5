@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using System.IO;
+
 
 namespace Snake
 {
@@ -20,7 +22,7 @@ namespace Snake
 
         private void Snake_Load(object sender, EventArgs e)
         {
-      pictureBox1.Image = Image.FromFile(@"C:\Users\Elizaa Castillo\Desktop\Snake\Snake\bin\Debug\snake2.gif");
+      pictureBox1.Image = Image.FromFile(@"C:\Users\pc\Desktop\Snake50\Snake\Snake\bin\Debug\snake2.gif");
       pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
@@ -34,7 +36,7 @@ namespace Snake
 
     private void button2_Click(object sender, EventArgs e)
     {
-      System.Diagnostics.Process.Start(@"C:\Users\Elizaa Castillo\Desktop\Snake\Snake\bin\Debug\Informacion.docx");
+      System.Diagnostics.Process.Start(@"C:\Users\pc\Desktop\Snake50\Snake\Snake\bin\Debug\Informacion.docx");
     }
   }
 }
